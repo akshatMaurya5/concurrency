@@ -86,7 +86,7 @@ class Consumer implements Runnable {
     }
 }
 
-public class Main {
+public class ProducerConsumerNonBlockingQueue {
 
     public static void main(String[] args) {
         BoundedBlockingQueue queue = new BoundedBlockingQueue(3);
